@@ -15,7 +15,7 @@ class Movie(Video):
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
-    #method to sort movies by alphabetical order
+    # Method used to sort movies by alphabetical order
     def __lt__(self, other):
         return self.title < other.title
 

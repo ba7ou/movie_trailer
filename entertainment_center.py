@@ -1,7 +1,7 @@
 import fresh_tomatoes
 import media
 
-#enter your movies data to movie class
+# Enter your movies data to movie class
 toy_story = media.Movie("Toy Story",
                         "1995",
                         "81",
@@ -43,10 +43,10 @@ there_will_be_blood = media.Movie("There will be blood",
                                   "https://www.youtube.com/watch?v=FeSLPELpMeM")
 
 
-#create collection of movies
+# Create collection of movies
 movies = [toy_story, avatar, mad_max_fr, prisoners, there_will_be_blood]
 
-#sort by alphabetical order
+# Sort by alphabetical order
 movies.sort()
 
 fresh_tomatoes.open_movies_page(movies)
