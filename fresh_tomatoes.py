@@ -13,6 +13,8 @@ main_page_head = '''
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <!-- IMDB Rating script -->
+    <script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="http://g-ec2.images-amazon.com/images/G/01/imdb/plugins/rating/js/rating.min.js";stags.parentNode.insertBefore(js,stags);})(document,'script','imdb-rating-api');</script>
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
@@ -121,7 +123,13 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title} ({year}) {imdb_rating}/10</h2>
+    <h2>{movie_title}</h2>
+    <h4>({year})</h4>
+    <span class="imdbRatingPlugin" data-user="" data-title="{imdb_id}" data-style="p4">
+       <a href="http://www.imdb.com/title/{imdb_id}/?ref_=plg_rt_1">
+           <img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_31x14.png" />
+       </a>
+    </span>
 </div>
 '''
 
@@ -138,7 +146,7 @@ def create_movie_tiles_content(movies):
         content += movie_tile_content.format(
             movie_title=movie.title,
             year=movie.year,
-            imdb_rating=movie.imdb_rating,
+            imdb_id=movie.imdb_id,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id
         )

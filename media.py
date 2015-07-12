@@ -9,9 +9,9 @@ class Video():
 class Movie(Video):
     """This class provides a way to store movie related information"""
 
-    def __init__(self, title, year, duration, imdb_rating, movie_storyline, poster_image, trailer_youtube):
+    def __init__(self, title, year, duration, imdb_id, movie_storyline, poster_image, trailer_youtube):
         Video.__init__(self, title, year, duration)
-        self.imdb_rating = imdb_rating
+        self.imdb_id = imdb_id
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube

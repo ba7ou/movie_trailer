@@ -27,6 +27,8 @@ movie_trailer/
 ├── fresh_tomatoes.py
 ├── licence.txt
 ├── media.py
+├── js/
+│   └── bootstrap-rating-input.min.js
 └── fonts/
     ├── glyphicons-halflings-regular.eot
     ├── glyphicons-halflings-regular.svg
