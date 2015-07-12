@@ -26,15 +26,8 @@ movie_trailer/
 ├── entertainment_center.py
 ├── fresh_tomatoes.py
 ├── licence.txt
-├── media.py
-├── js/
-│   └── bootstrap-rating-input.min.js
-└── fonts/
-    ├── glyphicons-halflings-regular.eot
-    ├── glyphicons-halflings-regular.svg
-    ├── glyphicons-halflings-regular.ttf
-    ├── glyphicons-halflings-regular.woff
-    └── glyphicons-halflings-regular.woff2
+└── media.py
+
 ```
 
 
