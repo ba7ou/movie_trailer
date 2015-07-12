@@ -38,7 +38,7 @@ movie_trailer/
 
 ## Documentation
 
-Movie trailer documentation, included in this repo in the root directory and publicly hosted on GitHub Pages at <http://getbootstrap.com>. The docs may also be run locally.
+Movie trailer documentation, included in this repo in the root directory and publicly hosted on GitHub Pages at <https://github.com/ba7ou/movie_trailer>. The docs may also be run locally.
 
 
 ## Creators
@@ -53,4 +53,4 @@ Movie trailer documentation, included in this repo in the root directory and pub
 
 ## Copyright and license
 
-Code and documentation copyright 2011-2015 Twitter, Inc. Code released under [the MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).
+Code and documentation copyright 2011-2015 Twitter, Inc. Code released under [the MIT license](https://github.com/ba7ou/movie_trailer/master/LICENSE).
