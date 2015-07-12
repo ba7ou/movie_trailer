@@ -8,7 +8,6 @@ class Video():
 
 class Movie(Video):
     """This class provides a way to store movie related information"""
-    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
     def __init__(self, title, year, duration, imdb_rating, movie_storyline, poster_image, trailer_youtube):
         Video.__init__(self, title, year, duration)
