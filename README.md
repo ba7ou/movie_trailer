@@ -53,4 +53,4 @@ Movie trailer documentation, included in this repo in the root directory and pub
 
 ## Copyright and license
 
-Code and documentation copyright 2011-2015 Twitter, Inc. Code released under [the MIT license](https://github.com/ba7ou/movie_trailer/master/LICENSE).
+Code and documentation copyright 2011-2015 Twitter, Inc. Code released under [the MIT license](https://github.com/ba7ou/movie_trailer/blob/master/license.txt).
