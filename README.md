@@ -17,8 +17,10 @@ Several quick start options are available:
 - [Download the latest release](https://github.com/ba7ou/movie_trailer/archive/master.zip).
 - Clone the repo: `https://github.com/ba7ou/movie_trailer.git`.
 
-Then you can edit the movie list in entertainment_center.py with the following arguments from the class Movie(Video): title, year, duration, imdb_id, movie_storyline, poster_image and youtube_trailer.
+You can edit the movie list in entertainment_center.py with the following arguments from the class Movie(Video): title, year, duration, imdb_id, movie_storyline, poster_image and youtube_trailer.
 imdb_id is the IMDB movie adress, for exemple tt2488496 is the id for Star Wars: Episode VII - The Force Awakens at http://www.imdb.com/title/tt2488496/
+
+Run entertainment_center.py to generate the html page fresh_tomatoes.html
 
 ### What's included
 
