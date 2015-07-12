@@ -43,7 +43,7 @@ Movie trailer documentation, included in this repo in the root directory and pub
 
 ## Creators
 
-**Nicolas Nautin**
+**NAUTIN Nicolas**
 
 - <https://twitter.com/Batou__>
 - <https://github.com/ba7ou>
