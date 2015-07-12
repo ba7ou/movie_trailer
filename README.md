@@ -26,7 +26,7 @@ movie_trailer/
 ├── entertainment_center.py
 ├── fresh_tomatoes.py
 ├── licence.txt
-└── media.py
+├── media.py
 └── fonts/
     ├── glyphicons-halflings-regular.eot
     ├── glyphicons-halflings-regular.svg
