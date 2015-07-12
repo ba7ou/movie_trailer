@@ -38,7 +38,7 @@ there_will_be_blood = media.Movie("There will be blood",
                                   "2007",
                                   "158",
                                   "tt0469494",
-                                  "The birth of a petrol magnate",
+                                  "The ascension of a petrol magnate",
                                   "https://upload.wikimedia.org/wikipedia/en/d/da/There_Will_Be_Blood_Poster.jpg",
                                   "https://www.youtube.com/watch?v=FeSLPELpMeM")
 
